@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de preços</title>
+
+    <style>
+        table,
+        td {
+            border: 1px solid rgb(21, 91, 100);
+        }
+
+        .topo {
+            background: black;
+            color: white;
+        }
+
+        td,
+        th {
+            padding: 7px 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table border="1">
+        
+        <tfoot><!-- Rodapé da Tabela -->
+            <h1>Tabela De Preços:</h1>
+           
+            <caption>Preço é qualidade em um só lugar</caption><!-- Legenda -->
+        </tfoot>
+
+        
+        <thead> <!-- Cabeçalho -->
+            <tr>
+                <td colspan="5">Loja Preço Bom</td>
+            </tr>
+            <tr>
+                <th class="topo">Cod</th>
+                <th class="topo">Produto</th>
+                <th class="topo">Marca</th>
+                <th class="topo">Quantidade</th>
+                <th class="topo">Valor Un.</th>
+            </tr>
+        </thead>
+
+        
+        <tbody><!-- Corpo da tabela -->
+            <tr>
+                <td align="center">001</td>
+                <td align="center">Notebook</td>
+                <td align="center" rowspan="2">the Best</td>
+                <td align="center">2</td>
+                <td align="center">R$ 3.000,00</td>
+            </tr>
+
+            <tr>
+                <td align="center">002</td>
+                <td align="center">Computador</td>
+                <td align="center">5</td>
+                <td align="center">R$ 8.000,00</td>
+            </tr>
+
+            <tr>
+                <td align="center">003</td>
+                <td align="center">Console Video Game</td>
+                <td align="center">Sony</td>
+                <td align="center">8</td>
+                <td align="center">R$ 5.000.00</td>
+            </tr>
+
+            <tr>
+                <td align="center">004</td>
+                <td align="center">Smartphone</td>
+                <td align="center">Apple</td>
+                <td align="center">10</td>
+                <td align="center">R$ 8.000,00</td>
+            </tr>
+            <tr>
+                <th colspan="4">Valor total:</th>
+                <th colspan="1">R$ 24.000,00</th>
+            </tr>
+
+
+        </tbody>
+    </table>
+</body>
+
+</html>
